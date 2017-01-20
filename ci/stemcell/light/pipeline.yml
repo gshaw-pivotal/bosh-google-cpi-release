@@ -155,7 +155,8 @@ resources:
     type: git
     source:
       uri: https://github.com/cloudfoundry-incubator/bosh-google-cpi-release.git
-      branch: master
+      # branch: master
+      branch: PR-version-family-ci
 
   - name: terraform
     type: terraform

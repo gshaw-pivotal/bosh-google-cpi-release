@@ -5,7 +5,8 @@ image_resource:
   type: docker-image
   source:
     repository: boshcpi/gce-cpi-release
-    tag: v2
+    #TODO change this back to vX when https://github.com/cloudfoundry-incubator/bosh-google-cpi-release/pull/146 is merged
+    tag: PR-add-aws-cli
 
 inputs:
   - name: light-stemcell
